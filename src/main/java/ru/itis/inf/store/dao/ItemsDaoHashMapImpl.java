@@ -17,6 +17,7 @@ public class ItemsDaoHashMapImpl implements ItemsDao {
     @Override
     public void setReader(ItemsReader reader) {
         this.reader = reader;
+        getData();
     }
 
     @Override

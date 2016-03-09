@@ -37,7 +37,8 @@
 //
 //        doReturn(new Item("Something", 147)).when(itemsDao).select("Something");
 //
-//        testedStoreService = new StoreServiceImpl(itemsDao);
+////        testedStoreService = new StoreServiceImpl();
+////        testedStoreService.setItemsDao(itemsDao);
 //    }
 //
 //    // Проверяем, корректно ли прошло выполнение метода buy при входном значении Something

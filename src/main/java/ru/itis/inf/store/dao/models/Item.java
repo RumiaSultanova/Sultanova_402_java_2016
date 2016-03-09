@@ -38,7 +38,7 @@ public class Item {
             return false;
         }
 
-        Item that = (Item)object;
+        Item that = (Item) object;
 
         return Objects.equals(this.name, that.name) &&
                 Objects.equals(this.price, that.price);

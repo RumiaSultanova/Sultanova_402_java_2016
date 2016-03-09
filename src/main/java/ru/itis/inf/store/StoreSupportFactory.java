@@ -29,10 +29,10 @@ public class StoreSupportFactory {
             String itemsDaoClass = properties.getProperty("dao.class");
             String itemReaderClass = properties.getProperty("reader.class");
 
-            this.itemsReader = (ItemsReader)Class.forName(itemReaderClass).newInstance();
-            this.itemsDao = (ItemsDao)Class.forName(itemsDaoClass).newInstance();
-            this.storeService = (StoreService)Class.forName(storeServiceClass).newInstance();
-        }catch (Exception e){
+            this.itemsReader = (ItemsReader) Class.forName(itemReaderClass).newInstance();
+            this.itemsDao = (ItemsDao) Class.forName(itemsDaoClass).newInstance();
+            this.storeService = (StoreService) Class.forName(storeServiceClass).newInstance();
+        } catch (Exception e) {
             throw new IllegalArgumentException(e);
         }
 
@@ -42,7 +42,7 @@ public class StoreSupportFactory {
         instance = new StoreSupportFactory();
     }
 
-    public static StoreSupportFactory getInstance(){
+    public static StoreSupportFactory getInstance() {
         return instance;
     }
 

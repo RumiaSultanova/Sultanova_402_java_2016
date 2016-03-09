@@ -7,7 +7,6 @@ import ru.itis.inf.store.dao.ItemsDao;
  */
 public interface StoreService {
     /**
-     *
      * @param dao
      */
     void setItemsDao(ItemsDao dao);
@@ -17,12 +16,14 @@ public interface StoreService {
 
     /**
      * Покупка товара по имени
+     *
      * @param itemName имя товара
      */
     void buy(String itemName);
 
     /**
      * Проверяет, есть ли товар на складе
+     *
      * @param itemName название товара
      * @return true - если товар найден,
      * false - в противном случае

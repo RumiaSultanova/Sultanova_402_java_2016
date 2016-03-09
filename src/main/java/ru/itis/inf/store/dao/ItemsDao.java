@@ -10,27 +10,27 @@ import java.util.HashMap;
  */
 public interface ItemsDao {
     /**
-     *
      * @param reader
      */
     void setReader(ItemsReader reader);
 
     /**
-     *
      * @return
      */
     ItemsReader getReader();
 
-    HashMap<String,Integer> getData();
+    HashMap<String, Integer> getData();
 
     /**
      * Удаляет товар из хранилища
+     *
      * @param itemName
      */
     void delete(String itemName);
 
     /**
      * Возвращает описание товара из БД
+     *
      * @param itemName
      * @return
      */

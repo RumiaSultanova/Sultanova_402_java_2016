@@ -1,5 +1,7 @@
 package ru.itis.inf.store;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import ru.itis.inf.store.dao.ItemsDao;
 import ru.itis.inf.store.dao.reader.CsvReader;
 import ru.itis.inf.store.dao.reader.ItemsReader;
@@ -13,15 +15,11 @@ import java.io.IOException;
  */
 public class main {
     public static void main(String[] args) throws IOException {
-        StoreService storeService = StoreSupportFactory.getInstance().getStoreService();
-        ItemsDao itemsDao = StoreSupportFactory.getInstance().getItemsDao();
-        ItemsReader itemsReader = StoreSupportFactory.getInstance().getItemsReader();
+        ApplicationContext context = new ClassPathXmlApplicationContext("app-context.xml");
 
-        itemsDao.setReader(itemsReader);
-        itemsDao.getData();
-        storeService.setItemsDao(itemsDao);
+        StoreService service = context.getBean("service", StoreService.class);
 
-        System.out.println(storeService.isExist("kitty"));
+        System.out.println(service.isExist("kitty"));
     }
 }
 

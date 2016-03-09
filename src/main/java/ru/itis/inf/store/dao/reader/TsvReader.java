@@ -21,7 +21,7 @@ public class TsvReader implements ItemsReader {
 
         try {
             BufferedReader input = new BufferedReader(new FileReader("/home/rumia/Code/Java/4th/Store/src/main/resources/storeList.tsv"));
-            while ((temp = input.readLine()) != null){
+            while ((temp = input.readLine()) != null) {
                 tempr = temp.split("\\t");
                 main.put(tempr[0], Integer.valueOf(tempr[1]));
             }
