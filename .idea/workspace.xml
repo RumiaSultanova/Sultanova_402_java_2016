@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b77fb50a-c262-4a1f-88da-6e093973c035" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_univocity_univocity_parsers_2_0_0.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/Try.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/dao/ItemsDao.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/dao/ItemsDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/dao/ItemsDaoHashMapImpl.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/dao/ItemsDaoHashMapImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/dao/reader/CsvReader.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/dao/reader/CsvReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/dao/reader/TsvReader.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/dao/reader/TsvReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/main.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/service/StoreServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/service/StoreServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Store.iml" afterPath="$PROJECT_DIR$/Store.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/StoreConfig.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/StoreConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/dao/ItemsDao.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/dao/ItemsDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/dao/ItemsDaoHashMapImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/dao/ItemsDaoHashMapImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/dao/reader/CsvReader.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/dao/reader/CsvReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/dao/reader/TsvReader.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/dao/reader/TsvReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/main.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/service/StoreServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/service/StoreServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/app-context.xml" afterPath="$PROJECT_DIR$/src/main/resources/app-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/app-context.xml" afterPath="$PROJECT_DIR$/target/classes/app-context.xml" />
     </list>
     <ignored path="Store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1074,7 +1055,7 @@
       <workItem from="1457598220868" duration="719000" />
       <workItem from="1458026612323" duration="567000" />
       <workItem from="1458028436709" duration="2468000" />
-      <workItem from="1458146825100" duration="4650000" />
+      <workItem from="1458146825100" duration="4795000" />
     </task>
     <servers />
   </component>
@@ -1111,7 +1092,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46307000" />
+    <option name="totallyTimeSpent" value="46452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="1" />
