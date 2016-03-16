@@ -1,5 +1,9 @@
 package ru.itis.inf.store.service;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import ru.itis.inf.store.dao.ItemsDao;
 
 import java.util.logging.Logger;
@@ -7,9 +11,13 @@ import java.util.logging.Logger;
 /**
  * Created by rumia on 15.02.16.
  */
+@Service
 public class StoreServiceImpl implements StoreService {
 
+    @Autowired
+    @Qualifier("itemsDaoHashMapImpl")
     private ItemsDao itemsDao;
+
     private static Logger logger = Logger.getLogger(StoreServiceImpl.class.getName());
 
     @Override

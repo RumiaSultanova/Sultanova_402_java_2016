@@ -19,8 +19,6 @@ public interface ItemsDao {
      */
     ItemsReader getReader();
 
-    HashMap<String, Integer> getData();
-
     /**
      * Удаляет товар из хранилища
      *

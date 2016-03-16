@@ -1,5 +1,8 @@
 package ru.itis.inf.store.dao;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 import ru.itis.inf.store.dao.models.Item;
 import ru.itis.inf.store.dao.reader.ItemsReader;
 
@@ -9,26 +12,24 @@ import java.util.logging.Logger;
 /**
  * Created by rumia on 03.03.16.
  */
+@Component
 public class ItemsDaoHashMapImpl implements ItemsDao {
+
+    @Autowired
+    @Qualifier("csvReader")
     ItemsReader reader;
+
     HashMap<String, Integer> main = new HashMap<String, Integer>();
     private static Logger logger = Logger.getLogger(ItemsDaoHashMapImpl.class.getName());
 
     @Override
     public void setReader(ItemsReader reader) {
         this.reader = reader;
-        getData();
     }
 
     @Override
     public ItemsReader getReader() {
         return reader;
-    }
-
-    @Override
-    public HashMap<String, Integer> getData() {
-        this.main = reader.getData();
-        return main;
     }
 
     @Override
