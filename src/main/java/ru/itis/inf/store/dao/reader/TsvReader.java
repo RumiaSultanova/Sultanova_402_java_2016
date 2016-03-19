@@ -45,7 +45,7 @@ public class TsvReader implements ItemsReader {
             System.out.println("Not today~");
         }
 
-        logger.info("Data loaded");
+        logger.info("Data loaded from tsv");
 
         return main;
     }

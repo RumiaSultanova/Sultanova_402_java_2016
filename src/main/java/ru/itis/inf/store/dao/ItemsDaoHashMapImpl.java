@@ -22,6 +22,12 @@ public class ItemsDaoHashMapImpl implements ItemsDao {
     HashMap<String, Integer> main = new HashMap<String, Integer>();
     private static Logger logger = Logger.getLogger(ItemsDaoHashMapImpl.class.getName());
 
+/*
+    public void init() {
+        this.main = reader.getData();
+    }
+*/
+
     @Override
     public void setReader(ItemsReader reader) {
         this.reader = reader;
