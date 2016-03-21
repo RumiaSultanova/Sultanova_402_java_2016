@@ -22,11 +22,15 @@ public class ItemsDaoHashMapImpl implements ItemsDao {
     HashMap<String, Integer> main = new HashMap<String, Integer>();
     private static Logger logger = Logger.getLogger(ItemsDaoHashMapImpl.class.getName());
 
-/*
+    public ItemsDaoHashMapImpl() {
+        this.main.put("kitty", 123);
+        this.main.put("zombie", 456);
+        this.main.put("love", 789);
+    }
+
     public void init() {
         this.main = reader.getData();
     }
-*/
 
     @Override
     public void setReader(ItemsReader reader) {
@@ -40,7 +44,6 @@ public class ItemsDaoHashMapImpl implements ItemsDao {
 
     @Override
     public void delete(String itemName) {
-        System.out.println("name: " + itemName + " price: " + main.get(itemName));
         logger.info(itemName + " for " + main.get(itemName) + " was sold");
         main.remove(itemName);
     }

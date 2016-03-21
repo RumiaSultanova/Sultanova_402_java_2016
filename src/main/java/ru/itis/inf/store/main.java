@@ -40,6 +40,8 @@ public class main {
         service = (StoreService) context.getBean("storeServiceImpl");
 
         service.isExist("zombie");
+        service.buy("zombie");
+        service.isExist("zombie");
 
         int i = 0;
 

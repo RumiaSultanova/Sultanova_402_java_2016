@@ -37,6 +37,10 @@ public class StoreServiceImpl implements StoreService {
 
     public boolean isExist(String itemName) {
         logger.info("Is " + itemName + " exist?");
+        if(itemsDao.select(itemName) != null)
+            logger.info("Exists with price: " + itemsDao.select(itemName).getPrice());
+        else
+            logger.info("Nope.. Not today~");
         return itemsDao.select(itemName) != null;
     }
 }

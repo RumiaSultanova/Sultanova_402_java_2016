@@ -1,4 +1,4 @@
-package ru.itis.inf.store;
+package ru.itis.inf.store.Aspect;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
@@ -16,9 +16,9 @@ public class AspectLogger {
         System.out.println("AOP logging: " + point.toShortString());
     }
 
-    @After("execution(* ru.itis.inf.store.dao.ItemsDaoHashMapImpl.select(..))")
-    public void f1(JoinPoint point){
-        System.out.println("AOP logging: " + point.toShortString());
+    @After("initialization(ItemsDaoHashMapImpl.new())")
+    public void f1(){
+        System.out.println("AOP logging: dao init");
     }
 
 }
