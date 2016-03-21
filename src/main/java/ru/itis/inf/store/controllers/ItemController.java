@@ -29,7 +29,7 @@ public class ItemController {
         return service.getItem(itemId);
     }
 
-    @RequestMapping(value = "/items", method = RequestMethod.GET)
+    @RequestMapping(value = "/items", method = RequestMethod.POST)
     public boolean setItem(String name, Integer price){
         return service.setItem(name, price);
     }

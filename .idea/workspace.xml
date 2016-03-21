@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b77fb50a-c262-4a1f-88da-6e093973c035" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_springframework_spring_webmvc_4_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/WebAppInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/aspect/AspectLogger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/controllers/ItemController.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/Aspect/AspectLogger.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/dao/ItemsDao.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/dao/ItemsDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/dao/ItemsDaoHashMapImpl.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/dao/ItemsDaoHashMapImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/service/StoreService.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/service/StoreService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/service/StoreServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/ru/itis/inf/store/service/StoreServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Store.iml" afterPath="$PROJECT_DIR$/Store.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/dao/ItemsDao.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/dao/ItemsDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/dao/ItemsDaoHashMapImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/dao/ItemsDaoHashMapImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/service/StoreService.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/service/StoreService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/service/StoreServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/service/StoreServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/controllers/ItemController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/inf/store/controllers/ItemController.java" />
     </list>
     <ignored path="Store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,16 +79,16 @@
       <file leaf-file-name="ItemController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/inf/store/controllers/ItemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79153097">
-              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.90584415">
+              <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#736#737#0" expanded="true" />
                 <element signature="e#780#781#0" expanded="true" />
                 <element signature="e#922#923#0" expanded="true" />
                 <element signature="e#968#969#0" expanded="true" />
-                <element signature="e#1091#1092#0" expanded="true" />
-                <element signature="e#1142#1143#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
+                <element signature="e#1143#1144#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,6 +199,13 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -1132,7 +1124,7 @@
       <workItem from="1458233663094" duration="4114000" />
       <workItem from="1458288198702" duration="309000" />
       <workItem from="1458547717849" duration="1349000" />
-      <workItem from="1458583241123" duration="7982000" />
+      <workItem from="1458583241123" duration="8184000" />
     </task>
     <servers />
   </component>
@@ -1169,7 +1161,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61717000" />
+    <option name="totallyTimeSpent" value="61919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="30" width="1922" height="1051" extended-state="6" />
@@ -1191,9 +1183,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32740587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1697,16 +1689,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/itis/inf/store/controllers/ItemController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79153097">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.90584415">
+          <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#736#737#0" expanded="true" />
             <element signature="e#780#781#0" expanded="true" />
             <element signature="e#922#923#0" expanded="true" />
             <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
           </folding>
         </state>
       </provider>
