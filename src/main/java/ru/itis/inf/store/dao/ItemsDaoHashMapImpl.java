@@ -6,7 +6,9 @@ import org.springframework.stereotype.Component;
 import ru.itis.inf.store.dao.models.Item;
 import ru.itis.inf.store.dao.reader.ItemsReader;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.logging.Logger;
 
 /**
@@ -40,6 +42,17 @@ public class ItemsDaoHashMapImpl implements ItemsDao {
     @Override
     public ItemsReader getReader() {
         return reader;
+    }
+
+    @Override
+    public HashMap<String, Integer> getAllItems() {
+        return main;
+    }
+
+    @Override
+    public boolean setItem(String name, Integer price) {
+        main.put(name, price);
+        return true;
     }
 
     @Override

@@ -4,20 +4,19 @@ import ru.itis.inf.store.dao.models.Item;
 import ru.itis.inf.store.dao.reader.ItemsReader;
 
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * Created by rumia on 15.02.16.
  */
 public interface ItemsDao {
-    /**
-     * @param reader
-     */
     void setReader(ItemsReader reader);
 
-    /**
-     * @return
-     */
     ItemsReader getReader();
+
+    HashMap<String, Integer> getAllItems();
+
+    boolean setItem(String name, Integer price);
 
     /**
      * Удаляет товар из хранилища

@@ -5,7 +5,10 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import ru.itis.inf.store.dao.ItemsDao;
+import ru.itis.inf.store.dao.models.Item;
 
+import java.util.HashMap;
+import java.util.List;
 import java.util.logging.Logger;
 
 /**
@@ -21,13 +24,18 @@ public class StoreServiceImpl implements StoreService {
     private static Logger logger = Logger.getLogger(StoreServiceImpl.class.getName());
 
     @Override
-    public void setItemsDao(ItemsDao dao) {
-        this.itemsDao = dao;
+    public Item getItem(String name) {
+        return itemsDao.select(name);
     }
 
     @Override
-    public ItemsDao getItemsDao() {
-        return itemsDao;
+    public HashMap<String, Integer> getAllItems() {
+        return itemsDao.getAllItems();
+    }
+
+    @Override
+    public boolean setItem(String name, Integer price) {
+        return itemsDao.setItem(name, price);
     }
 
     public void buy(String itemName) {

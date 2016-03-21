@@ -1,18 +1,20 @@
 package ru.itis.inf.store.service;
 
 import ru.itis.inf.store.dao.ItemsDao;
+import ru.itis.inf.store.dao.models.Item;
+
+import java.util.HashMap;
+import java.util.List;
 
 /**
  * Created by rumia on 15.02.16.
  */
 public interface StoreService {
-    /**
-     * @param dao
-     */
-    void setItemsDao(ItemsDao dao);
+    Item getItem(String name);
 
+    HashMap<String, Integer> getAllItems();
 
-    ItemsDao getItemsDao();
+    boolean setItem(String name, Integer price);
 
     /**
      * Покупка товара по имени
