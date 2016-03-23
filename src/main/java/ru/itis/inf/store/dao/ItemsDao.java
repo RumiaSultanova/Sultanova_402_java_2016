@@ -1,7 +1,6 @@
 package ru.itis.inf.store.dao;
 
 import ru.itis.inf.store.dao.models.Item;
-import ru.itis.inf.store.dao.reader.ItemsReader;
 
 import java.util.HashMap;
 import java.util.List;
@@ -10,9 +9,6 @@ import java.util.List;
  * Created by rumia on 15.02.16.
  */
 public interface ItemsDao {
-    void setReader(ItemsReader reader);
-
-    ItemsReader getReader();
 
     HashMap<String, Integer> getAllItems();
 

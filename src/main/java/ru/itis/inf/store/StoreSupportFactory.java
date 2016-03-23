@@ -1,7 +1,6 @@
 package ru.itis.inf.store;
 
 import ru.itis.inf.store.dao.ItemsDao;
-import ru.itis.inf.store.dao.reader.ItemsReader;
 import ru.itis.inf.store.service.StoreService;
 
 import java.io.FileInputStream;
@@ -15,7 +14,6 @@ public class StoreSupportFactory {
 
     private Properties properties;
 
-    private ItemsReader itemsReader;
     private ItemsDao itemsDao;
     private StoreService storeService;
 
@@ -29,7 +27,6 @@ public class StoreSupportFactory {
             String itemsDaoClass = properties.getProperty("dao.class");
             String itemReaderClass = properties.getProperty("reader.class");
 
-            this.itemsReader = (ItemsReader) Class.forName(itemReaderClass).newInstance();
             this.itemsDao = (ItemsDao) Class.forName(itemsDaoClass).newInstance();
             this.storeService = (StoreService) Class.forName(storeServiceClass).newInstance();
         } catch (Exception e) {
@@ -52,9 +49,5 @@ public class StoreSupportFactory {
 
     public StoreService getStoreService() {
         return storeService;
-    }
-
-    public ItemsReader getItemsReader() {
-        return itemsReader;
     }
 }

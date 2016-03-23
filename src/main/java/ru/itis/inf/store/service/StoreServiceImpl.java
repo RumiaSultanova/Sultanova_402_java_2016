@@ -18,7 +18,7 @@ import java.util.logging.Logger;
 public class StoreServiceImpl implements StoreService {
 
     @Autowired
-    @Qualifier("itemsDaoHashMapImpl")
+    @Qualifier("itemsDaoCsvImpl")
     private ItemsDao itemsDao;
 
     private static Logger logger = Logger.getLogger(StoreServiceImpl.class.getName());

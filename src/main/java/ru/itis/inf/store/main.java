@@ -13,7 +13,7 @@ import java.io.IOException;
  */
 public class main {
     @Autowired
-    @Qualifier("StoreServiceImpl")
+    @Qualifier("storeServiceImpl")
     static StoreService service;
 
     public static void main(String[] args) throws IOException {
