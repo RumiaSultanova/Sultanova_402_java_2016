@@ -35,5 +35,6 @@
     <orderEntry type="library" name="aspectj:aspectjweaver:1.5.3" level="project" />
     <orderEntry type="library" name="org.springframework:spring-webmvc:4.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="org.springframework:spring-test:4.1.1.RELEASE" level="project" />
+    <orderEntry type="library" name="org.springframework:spring-test:4.1.5.RELEASE" level="project" />
   </component>
 </module>
